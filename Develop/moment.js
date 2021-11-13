@@ -17,3 +17,4 @@
   var eDisplayDate = document.getElementById('currentWeekDay');
   eDisplayDate.innerHTML = NowDate;
 })();
+
