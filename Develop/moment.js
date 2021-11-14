@@ -18,3 +18,30 @@
   eDisplayDate.innerHTML = NowDate;
 })();
 
+
+// Save buttons log textarea entries to save. 
+(nineBtn.onclick= function(){
+
+  var nine= document.getElementById("0900").value;
+  
+  var nine = console.log(nine);
+});
+
+(tenBtn.onclick= function (){
+
+  var ten= document.getElementById("1000").value;
+  
+  var ten = console.log(ten);
+});
+(elevenBtn.onclick= function(){
+
+  var eleven= document.getElementById("1100").value;
+  
+  var eleven = 
+console.log(eleven);
+})
+       
+       
+        
+      
+
