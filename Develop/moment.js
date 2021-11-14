@@ -18,14 +18,16 @@
 })();
 
 //time check toggle function
-
-(function toggleClass(){
-  
-  var currentTime= moment().hours();
+var currentTime= moment().hours();
   console.log(currentTime);
+
+  (function(){
   
-  //if (currentTime = document.getElementById()){
-    //element.classList.toggle(present);
+  currentTime = document.getElementsByName("textarea");
+    element.classList.toggle("present");
+  ;
+ // else (currentTime < document.getElementsByName(textarea)){
+   //element.classList.toggle(future);
  // }
   
 })
@@ -36,6 +38,8 @@
   var nine= document.getElementById("09").value;
   
   var nine = console.log(nine);
+
+ 
 });
 
 (tenBtn.onclick= function (){
