@@ -39,7 +39,49 @@
   
   var eleven = 
 console.log(eleven);
-})
+});
+(twelveBtn.onclick= function(){
+
+  var twelve= document.getElementById("1200").value;
+  
+  var twelve = 
+console.log(twelve);
+});
+(oneBtn.onclick= function(){
+
+  var one= document.getElementById("0100").value;
+  
+  var one = 
+console.log(one);
+});
+(twoBtn.onclick= function(){
+
+  var two= document.getElementById("0200").value;
+  
+  var two = 
+console.log(two);
+});
+(threeBtn.onclick= function(){
+
+  var three= document.getElementById("0300").value;
+  
+  var three = 
+console.log(three);
+});
+(fourBtn.onclick= function(){
+
+  var four= document.getElementById("0400").value;
+  
+  var four = 
+console.log(four);
+});
+(fiveBtn.onclick= function(){
+
+  var five= document.getElementById("0500").value;
+  
+  var five = 
+console.log(five);
+});
        
        
         
