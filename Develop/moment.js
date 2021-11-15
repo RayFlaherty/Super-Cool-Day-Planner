@@ -21,21 +21,21 @@
 var currentTime= moment().hours();
   console.log(currentTime);
 
-  (function(){
-  
-  currentTime = document.getElementsByName("textarea");
-    element.classList.toggle("present");
-  ;
+  (function toggleClass(){
+    var element = document.getElementById("9");
+  //currentTime = document.getElementsByName('');
+    element.classList.toggle("past");
+  //;
  // else (currentTime < document.getElementsByName(textarea)){
    //element.classList.toggle(future);
- // }
+ //}
   
 })
 
 // Save buttons log textarea entries to save. 
 (nineBtn.onclick= function(){
 
-  var nine= document.getElementById("09").value;
+  var nine= document.getElementById("9").value;
   
   var nine = console.log(nine);
 
